@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+  color: 474c4e;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1440px;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.main {
+  width: 33.333%;
+  padding: 60px 75px 90px;
+  background-color: #c1d8de;
+}
+
+.avatar {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.avatar__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.avatar__name {
+  margin-bottom: 10px;
+  line-height: 15px;
+
+}
+
+.avatar__profession {
+  margin-bottom: 35px;
+  font-size: 16px;
+}
+
+.profile {
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+
+
+
+
+
+
+.profile_underline::after {
+  content: "";
+  position: relative;
+  height: 2px;
+  width: 100px;
+  background-color: black;
+  bottom: -25px;
+}
+
+.skills__rating-result {
+  display: flex;
+}
+
+.skills__rating-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: brown;
+  margin-right: 10px;
+}
+
+.skills__rating-circle:last-child {
+  margin-right: 0;
+}
+
+.skills__rating-circle_active {
+  background-color: green;
+}
+
+
+
+.general {
+  display: flex;
+  flex-direction: column;
+  width: 66.666%;
+  background-color: gainsboro;
+}
